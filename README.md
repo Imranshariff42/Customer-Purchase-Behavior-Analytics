@@ -131,6 +131,8 @@ Promote Top-Rated Products in marketing campaigns.
 
 Target High-Revenue Age Groups for better marketing ROI.
 
-**Dashboard Image**
+**Live Dashboard Link**
+
+https://app.powerbi.com/view?r=eyJrIjoiOGMwNzlhNDItMzk2Ni00OWE4LThmNDYtNmZkYzYzMzIyY2EwIiwidCI6ImQ0NjZlNTA5LWQ4YWMtNGZmZC1iMTAxLWViN2QzYmQ1MzlhYSJ9
 
 
