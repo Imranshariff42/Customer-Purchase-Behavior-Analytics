@@ -1,13 +1,13 @@
-🛍️ Customer Shopping Behavior Analysis
+🛍️ **Customer Purchase Behavior Analysis**
 
-📌 Project Overview
+📌 **Project Overview**
 
 This project analyzes customer shopping behavior using transactional data from 3,900 purchases across multiple product categories.
 The goal is to uncover insights into spending patterns, customer segments, product preferences, and subscription behavior to support better business decisions. 
 
 Customer Shopping Behavior Anal…
 
-📊 Dataset Summary
+📊 **Dataset Summary**
 
 Dataset Size
 
@@ -29,7 +29,7 @@ Missing Data
 
 Customer Shopping Behavior Anal…
 
-🛠️ Tools & Technologies
+🛠️ **Tools & Technologies**
 
 Python (Pandas) → Data cleaning and preprocessing
 
@@ -37,7 +37,7 @@ PostgreSQL → SQL analysis and querying
 
 Power BI → Data visualization and dashboard creation
 
-🧹 Data Preparation (Python)
+🧹 **Data Preparation (Python)**
 
 Key steps performed during preprocessing:
 
@@ -63,7 +63,7 @@ Database Integration
 
 Loaded cleaned dataset into PostgreSQL
 
-🧠 Data Analysis (SQL)
+🧠 **Data Analysis (SQL)**
 
 Business questions answered using SQL:
 
@@ -89,7 +89,7 @@ Revenue by Age Group
 
 Customer Shopping Behavior Anal…
 
-📈 Power BI Dashboard
+📈 **Power BI Dashboard**
 
 An interactive Power BI dashboard was created to visualize insights such as:
 
@@ -109,7 +109,7 @@ This helps stakeholders quickly understand customer trends and spending patterns
 
 Customer Shopping Behavior Anal…
 
-💡 Key Insights
+💡 **Key Insights**
 
 Loyal customers make up a large share of repeat purchases.
 
@@ -119,7 +119,7 @@ Express shipping customers tend to spend slightly more.
 
 Young adult customers contribute significantly to total revenue.
 
-🚀 Business Recommendations
+🚀 **Business Recommendations**
 
 Boost Subscriptions → Offer exclusive benefits to members.
 
@@ -130,3 +130,7 @@ Optimize Discount Strategy → Balance revenue growth and profit margin.
 Promote Top-Rated Products in marketing campaigns.
 
 Target High-Revenue Age Groups for better marketing ROI.
+
+**Dashboard Image**
+
+
