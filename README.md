@@ -5,8 +5,6 @@
 This project analyzes customer shopping behavior using transactional data from 3,900 purchases across multiple product categories.
 The goal is to uncover insights into spending patterns, customer segments, product preferences, and subscription behavior to support better business decisions. 
 
-Customer Shopping Behavior Anal…
-
 📊 **Dataset Summary**
 
 Dataset Size
@@ -15,121 +13,112 @@ Rows: 3,900
 
 Columns: 18
 
-Key Features
+**Key Features**
 
-Customer Demographics: Age, Gender, Location, Subscription Status
+1- Customer Demographics: Age, Gender, Location, Subscription Status
 
-Purchase Details: Item Purchased, Category, Purchase Amount, Season, Size, Color
+2- Purchase Details: Item Purchased, Category, Purchase Amount, Season, Size, Color
 
-Shopping Behavior: Discount Applied, Promo Code Used, Previous Purchases, Purchase Frequency, Review Rating, Shipping Type
+3- Shopping Behavior: Discount Applied, Promo Code Used, Previous Purchases, Purchase Frequency, Review Rating, Shipping Type
 
-Missing Data
+4- Missing Data
 
-37 missing values in the Review Rating column. 
-
-Customer Shopping Behavior Anal…
+5- 37 missing values in the Review Rating column. 
 
 🛠️ **Tools & Technologies**
 
-Python (Pandas) → Data cleaning and preprocessing
+→ Python (Pandas) → Data cleaning and preprocessing
 
-PostgreSQL → SQL analysis and querying
+→ PostgreSQL → SQL analysis and querying
 
-Power BI → Data visualization and dashboard creation
+→ Power BI → Data visualization and dashboard creation
 
 🧹 **Data Preparation (Python)**
 
 Key steps performed during preprocessing:
 
-Data Loading using pandas
+• Data Loading using pandas
 
-Initial Exploration using df.info() and df.describe()
+• Initial Exploration using df.info() and df.describe()
 
-Missing Value Handling for the review_rating column
+• Missing Value Handling for the review_rating column
 
-Column Standardization to snake_case
+• Column Standardization to snake_case
 
-Feature Engineering
+• Removed Redundant Column
 
-age_group
+• Loaded cleaned dataset into PostgreSQL
 
-purchase_frequency_days
+**Feature Engineering**
 
-Removed Redundant Column
+• age_group
 
-promo_code_used
-
-Database Integration
-
-Loaded cleaned dataset into PostgreSQL
+• purchase_frequency_days
 
 🧠 **Data Analysis (SQL)**
 
-Business questions answered using SQL:
+1- Business questions answered using SQL:
 
-Revenue by Gender
+2- Revenue by Gender
 
-High-Spending Discount Users
+3- High-Spending Discount Users
 
-Top 5 Products by Rating
+4- Top 5 Products by Rating
 
-Shipping Type Comparison (Standard vs Express)
+5- Shipping Type Comparison (Standard vs Express)
 
-Subscribers vs Non-Subscribers Spending
+6- Subscribers vs Non-Subscribers Spending
 
-Discount-Dependent Products
+7- Discount-Dependent Products
 
-Customer Segmentation (New, Returning, Loyal)
+8- Customer Segmentation (New, Returning, Loyal)
 
-Top 3 Products per Category
+9- Top 3 Products per Category
 
-Repeat Buyers & Subscription Behavior
+10- Repeat Buyers & Subscription Behavior
 
-Revenue by Age Group 
+11- Revenue by Age Group 
 
-Customer Shopping Behavior Anal…
 
 📈 **Power BI Dashboard**
 
 An interactive Power BI dashboard was created to visualize insights such as:
 
-Total Customers
+• Total Customers
 
-Average Purchase Amount
+• Average Purchase Amount
 
-Average Product Rating
+• Average Product Rating
 
-Revenue by Category
+• Revenue by Category
 
-Customer Distribution by Subscription Status
+• Customer Distribution by Subscription Status
 
-Revenue by Age Group
+• Revenue by Age Group
 
 This helps stakeholders quickly understand customer trends and spending patterns. 
 
-Customer Shopping Behavior Anal…
-
 💡 **Key Insights**
 
-Loyal customers make up a large share of repeat purchases.
+— Loyal customers make up a large share of repeat purchases.
 
-Certain products rely heavily on discount-driven sales.
+— Certain products rely heavily on discount-driven sales.
 
-Express shipping customers tend to spend slightly more.
+— Express shipping customers tend to spend slightly more.
 
-Young adult customers contribute significantly to total revenue.
+— Young adult customers contribute significantly to total revenue.
 
 🚀 **Business Recommendations**
 
-Boost Subscriptions → Offer exclusive benefits to members.
+1- Boost Subscriptions → Offer exclusive benefits to members.
 
-Customer Loyalty Programs → Reward repeat buyers.
+2- Customer Loyalty Programs → Reward repeat buyers.
 
-Optimize Discount Strategy → Balance revenue growth and profit margin.
+3- Optimize Discount Strategy → Balance revenue growth and profit margin.
 
-Promote Top-Rated Products in marketing campaigns.
+4- Promote Top-Rated Products in marketing campaigns.
 
-Target High-Revenue Age Groups for better marketing ROI.
+5- Target High-Revenue Age Groups for better marketing ROI.
 
 **Live Dashboard Link**
 
